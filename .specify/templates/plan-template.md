@@ -31,15 +31,15 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-- [ ] **I. Technical Accuracy**: Does the plan rely on accurate and current best practices for ROS 2, Gazebo, Unity, and NVIDIA Isaac?
-- [ ] **II. Hands-on Learning**: Does the plan include practical labs and code demonstrations?
-- [ ] **III. Clear, Structured Teaching**: Is the feature organized logically within the Modules → Chapters → Lessons structure?
-- [ ] **IV. Consistent Python/ROS 2 Examples**: Are all proposed code examples using Python and ROS 2?
-- [ ] **V. Separation of Concerns**: Does the plan maintain a strict separation between textbook content and chatbot logic?
-- [ ] **VI. MDX-Ready Content**: Is all planned output compatible with Docusaurus MDX?
-- [ ] **VII. Spec-Kit Plus Workflow**: Is this plan part of the defined Constitution → Spec → Plan → Tasks → Implement workflow?
-- [ ] **VIII. Defined Tech Stack**: Does the plan adhere to the specified FastAPI, Neon, Qdrant, and OpenAI stack?
-- [ ] **IX. Standardized Lesson Structure**: Does the planned lesson include learning goals, an explanation, code, and a lab?
+- [ ] **I. Spec-first**: Does the plan originate from an approved specification?
+- [ ] **II. Reproducibility**: Does the plan account for deterministic builds and deployments?
+- [ ] **III. AI discipline**: Is the AI agent's role clearly defined and constrained to the spec?
+- [ ] **IV. Transparency**: Are all significant decisions and data flows documented?
+- [ ] **Book Standards**: Does the plan adhere to the documented book standards (format, audience, chapter structure)?
+- [ ] **Tooling**: Does the plan utilize the correct, specified project tooling?
+- [ ] **RAG Chatbot Requirements**: If applicable, does the plan conform to the RAG chatbot's stack and capabilities?
+- [ ] **Constraints**: Does the plan operate within the defined project constraints?
+- [ ] **Governing Rule**: Does the plan ensure that nothing is implemented that is not first specified?
 
 ## Project Structure
 
